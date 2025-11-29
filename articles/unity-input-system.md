@@ -80,7 +80,7 @@ Input System の個人的に感じる良い点はこちらです。
 # 入力処理の為の準備
 ここまで出来たら実際に Input System を使用して入力情報を取得します。
 手始めに Unity 内で適当なオブジェクトを作成します。
-`Controller.cs`というスクリプトファイルも作成し、オブジェクトにコンポーネント追加します。
+`Controller.cs` というスクリプトファイルも作成し、オブジェクトにコンポーネント追加します。
 今回は入力情報を取得してこの四角オブジェクトを操作します。
 ![](/images/unity-input-system/create-object.png)
 
@@ -89,7 +89,7 @@ Input System の個人的に感じる良い点はこちらです。
 ## アクションの使用
 ![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/images/Workflow-Actions.png)
 コードからアクションにアクセスする方法です。
-`Controller.cs`のソースコードを下記のようにして下さい。
+`Controller.cs` のソースコードを下記のようにして下さい。
 ```cs
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -133,7 +133,7 @@ public class Controller : MonoBehaviour
 ## アクションと PlayerInput コンポーネントの使用
 ![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/images/Workflow-PlayerInput.png)
 アクションと PlayerInput コンポーネントを一緒に使用する方法です。
-`Controller.cs`のソースコードを下記のようにして下さい。
+`Controller.cs` のソースコードを下記のようにして下さい。
 ```cs
 using UnityEngine;
 using UnityEngine.InputSystem;
