@@ -244,10 +244,10 @@ private Transform cameraTransform;
 +   forward.y = 0f;
 +   right.y = 0f;
 +
-+   // 入力値とカメラ向きに応じて移動ベクトルを計算
-+   var moveVec = forward * input.y + right * input.x;
 -   // 入力方向をワールド空間に変換
 -   var moveVec = new Vector3(input.x, 0f, input.y);
++   // 入力値とカメラ向きに応じて移動ベクトルを計算
++   var moveVec = forward * input.y + right * input.x;
 ```
 この変更により、前後移動がカメラのZ軸方向、左右移動がX軸方向に連動し、TPS やアクションゲームで一般的なカメラの向きへ進む操作が可能になります。
 
